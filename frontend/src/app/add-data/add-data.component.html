@@ -1,0 +1,13 @@
+
+
+<!-- Form for adding a customer -->
+<form (ngSubmit)="addCustomer()">
+  <input [(ngModel)]="customerData.name" name="name" placeholder="Customer Name">
+  <button type="submit">Add Customer</button>
+</form>
+
+<!-- Form for adding an order -->
+<form (ngSubmit)="addOrder()">
+  <input [(ngModel)]="orderData.description" name="product" placeholder="Order Product">
+  <button type="submit">Add Order</button>
+</form>
